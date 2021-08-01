@@ -6,15 +6,16 @@ const toggle = document.querySelector(".toggle");
 const dateEl = document.querySelector(".date");
 
 const days = [
+  "Yakshanba",
   "Dushanba",
   "Seshanba",
   "Chorshanba",
   "Payshanba",
   "Juma",
   "Shanba",
-  "Yakshanba",
 ];
 const months = [
+  "Dekabr",
   "Yanvar",
   "Fevral",
   "Mart",
@@ -25,7 +26,6 @@ const months = [
   "Sentabr",
   "Oktabr",
   "Noyabr",
-  "Dekabr",
 ];
 
 toggle.addEventListener("click", (e) => {
